@@ -15,7 +15,7 @@ public class Cheers {
                 for (int i = 0; i < word.length(); i++) {
                         char ch = word.charAt(i);
                         System.out.println(
-                                        specialLetters.indexOf(ch) == -1 ? String.format("Give me a  %s: %s !", ch, ch)
+                                        specialLetters.indexOf(ch) == -1 ? String.format("Give me a  %s: %s!", ch, ch)
                                                         : String.format("Give me an %s: %s !", ch, ch));
                 }
                 System.out.println("What does that spell?");
